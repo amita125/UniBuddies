@@ -1,0 +1,106 @@
+/*--- big screen ----*/
+
+@media screen and (max-width: 1920px) and (min-width: 1601px) {
+    .edit-photo {
+        left: 369px;
+    }
+    .user-avatar {
+        margin-top: -225px;
+    }
+    #people-list figure {
+        width: 14.7%;
+    }
+    .photos > li {
+        min-width: 211px;
+        width: 211px;
+    }
+    
+    .page-infos > span {
+        font-weight: 600;
+    }
+    .editing-interest form input {
+        width: 73.5%;
+    }
+    .peoples {
+        width: 230px;
+    }
+    .peoples-mesg-box {
+        width: 72%;
+    }
+    .sidebar .widget ul.recent-photos li {
+        width: 18.9%;
+    }
+    .timeline-info > ul li a::after {
+        bottom: -17px;
+    }
+    .videobg-meta{left: 400px;}
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1400px) {
+    .user-avatar {
+        top: -33px;
+    }
+    #people-list figure {
+        width: 18.5%;
+    }
+    .chat-box {
+        right: 294px;
+    }
+    .edit-photo {
+        left: 315px;
+        bottom: 125px;
+    }
+    .add-btn {
+        bottom: 125px;
+    }
+}
+
+@media screen and (max-width: 1281px) and (min-width: 1024px) {
+    .photos > li {
+        min-width: 32.2%;
+        width: 32.2%;
+    }
+    .timeline-info {
+        line-height: 51px;
+    }
+    .timeline-info .admin-name > span {
+        line-height: 0;
+    }
+    footer .widget-title h4 {
+        font-size: 14px;
+    }
+    .timeline-info .admin-name > h5 {
+        font-size: 20px;
+    }
+    .sidebar .widget li > a {
+        font-size: 14px;
+    }
+    .user-avatar {
+        width: 80.2%
+    }
+    .chat-box {
+        right: 230px;
+    }
+    .post-meta .detail {
+        width: 62%;
+    }
+    .pepl-info {
+        width: 87%;
+    }
+    .liked-pages > li {
+        min-width: 32.4%;
+        max-width: 32.4%;
+    }
+    .peoples-mesg-box {
+        width: 63.4%;
+    }
+    .conversation-head > span {
+        width: 82%;
+    }
+    .sidebar .widget ul.recent-photos li {
+        width: 31.7%;
+    }
+    .row.widget-page {
+        padding: 0;
+    }
+}
